@@ -20,11 +20,15 @@ export const Title = styled.h2`
 export const StyledForm = styled.form`
   display: flex;
   flex-direction: column;
+  row-gap: 20px;
   margin-bottom: 10px;
+`;
+export const InputWrap = styled.div`
+  display: flex;
+  flex-direction: column;
 `;
 
 export const StyledInput = styled.input`
-  margin-bottom: 20px;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.57;
@@ -38,15 +42,18 @@ export const StyledInput = styled.input`
   }
 `;
 export const StyledLabel = styled.label`
+  margin-bottom: 10px;
   font-family: 'Merriweather', serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.42;
 `;
-export const ErrorMessage = styled.p``;
+export const ErrorMessage = styled.p`
+  font-size: 13px;
+`;
 
 export const ForgotButton = styled(Link)`
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-align: right;
   font-size: 14px;
   font-weight: 600;

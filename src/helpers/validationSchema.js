@@ -6,13 +6,13 @@ export const registrationSchema = yup
       .string()
       .matches(
         /^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$/,
-        "Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
+        'Name may contain only letters, apostrophe, dash and spaces'
       )
       .required('Name is required'),
     email: yup.string().email('Invalid email').required('Email is required'),
     password: yup
       .string()
-      .min(7, 'Password must be at least 7 characters long')
+      .min(4, 'Password must be at least 4 characters long')
       .required('Password is required'),
   })
   .required();
@@ -23,7 +23,7 @@ export const loginSchema = yup
     email: yup.string().email('Invalid email').required('Email is required'),
     password: yup
       .string()
-      .min(7, 'Password must be at least 7 characters long')
+      .min(4, 'Password must be at least 4 characters long')
       .required('Password is required'),
   })
   .required();

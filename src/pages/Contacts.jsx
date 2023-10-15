@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Filter } from '../components/Filter/Filter';
 import { ContactList } from '../components/ContactList/ContactList';
-import { ContactForm } from '../components/Forms/ContactForm';
 import { NoContactsMessage } from '../components/ContactList/NoContactsMessage';
 import { getContacts, getFilter } from '../redux/contacts/selectors';
 import { fetchContacts } from '../redux/contacts/operations';
@@ -22,7 +21,7 @@ function Contacts() {
   return (
     <section>
       <h2>Add contact using the form below </h2>
-      <ContactForm />
+
       <Filter />
       {filteredContacts.length > 0 ? (
         <ContactList contacts={filteredContacts} />

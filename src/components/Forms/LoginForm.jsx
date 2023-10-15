@@ -8,6 +8,7 @@ import {
   Container,
   Title,
   StyledForm,
+  InputWrap,
   StyledInput,
   StyledLabel,
   FormButton,
@@ -53,23 +54,26 @@ export function LoginForm() {
     <Container>
       <Title>Login</Title>
       <StyledForm onSubmit={handleSubmit(onSubmit)}>
-        <StyledLabel htmlFor="email">Email</StyledLabel>
-        <StyledInput
-          {...register('email')}
-          type="email"
-          placeholder="Email"
-          id="email"
-        />
-        <ErrorMessage>{errors.email?.message}</ErrorMessage>
-        <StyledLabel htmlFor="password">Password</StyledLabel>
-        <StyledInput
-          {...register('password')}
-          type="password"
-          placeholder="Password"
-          id="password"
-        />
-        <ErrorMessage>{errors.password?.message}</ErrorMessage>
-
+        <InputWrap>
+          <StyledLabel htmlFor="email">Email</StyledLabel>
+          <StyledInput
+            {...register('email')}
+            type="email"
+            placeholder="Email"
+            id="email"
+          />
+          <ErrorMessage>{errors.email?.message}</ErrorMessage>
+        </InputWrap>
+        <InputWrap>
+          <StyledLabel htmlFor="password">Password</StyledLabel>
+          <StyledInput
+            {...register('password')}
+            type="password"
+            placeholder="Password"
+            id="password"
+          />
+          <ErrorMessage>{errors.password?.message}</ErrorMessage>
+        </InputWrap>
         <ForgotButton to="/resetpassword">Forgot password?</ForgotButton>
         <FormButton type="submit">Sign In</FormButton>
       </StyledForm>

@@ -8,6 +8,7 @@ import {
   Container,
   Title,
   StyledForm,
+  InputWrap,
   StyledLabel,
   StyledInput,
   FormButton,
@@ -52,30 +53,36 @@ export function SignupForm() {
     <Container>
       <Title>Sign Up</Title>
       <StyledForm onSubmit={handleSubmit(onSubmit)}>
-        <StyledLabel htmlFor="name">Name</StyledLabel>
-        <StyledInput
-          {...register('name')}
-          type="text"
-          placeholder="Name"
-          id="name"
-        />
-        <ErrorMessage>{errors.name?.message}</ErrorMessage>
-        <StyledLabel htmlFor="email">Email</StyledLabel>
-        <StyledInput
-          {...register('email')}
-          type="email"
-          placeholder="Email"
-          id="email"
-        />
-        <ErrorMessage>{errors.email?.message}</ErrorMessage>
-        <StyledLabel htmlFor="password">Password</StyledLabel>
-        <StyledInput
-          {...register('password')}
-          type="password"
-          placeholder="Password"
-          id="password"
-        />
-        <ErrorMessage>{errors.password?.message}</ErrorMessage>
+        <InputWrap>
+          <StyledLabel htmlFor="name">Name</StyledLabel>
+          <StyledInput
+            {...register('name')}
+            type="text"
+            placeholder="Name"
+            id="name"
+          />
+          <ErrorMessage>{errors.name?.message}</ErrorMessage>
+        </InputWrap>
+        <InputWrap>
+          <StyledLabel htmlFor="email">Email</StyledLabel>
+          <StyledInput
+            {...register('email')}
+            type="email"
+            placeholder="Email"
+            id="email"
+          />
+          <ErrorMessage>{errors.email?.message}</ErrorMessage>
+        </InputWrap>
+        <InputWrap>
+          <StyledLabel htmlFor="password">Password</StyledLabel>
+          <StyledInput
+            {...register('password')}
+            type="password"
+            placeholder="Password"
+            id="password"
+          />
+          <ErrorMessage>{errors.password?.message}</ErrorMessage>
+        </InputWrap>
         <FormButton type="submit">Sign Up</FormButton>
       </StyledForm>
       <SignWrap>
