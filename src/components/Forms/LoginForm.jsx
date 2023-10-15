@@ -5,13 +5,16 @@ import toast, { Toaster } from 'react-hot-toast';
 import { useDispatch } from 'react-redux';
 import { yupResolver } from '@hookform/resolvers/yup';
 import {
+  Container,
+  Title,
   StyledForm,
   StyledInput,
+  StyledLabel,
   FormButton,
   ErrorMessage,
+  ForgotButton,
 } from './Forms.styled';
 import { logIn } from '../../redux/auth/authOperations';
-
 import { loginSchema } from '../../helpers/validationSchema';
 
 export function LoginForm() {
@@ -44,17 +47,30 @@ export function LoginForm() {
   };
 
   return (
-    <>
+    <Container>
+      <Title>Login</Title>
       <StyledForm onSubmit={handleSubmit(onSubmit)}>
-        <label htmlFor="email">Email</label>
-        <StyledInput {...register('email')} type="email" id="email" />
+        <StyledLabel htmlFor="email">Email</StyledLabel>
+        <StyledInput
+          {...register('email')}
+          type="email"
+          placeholder="Email"
+          id="email"
+        />
         <ErrorMessage>{errors.email?.message}</ErrorMessage>
-        <label htmlFor="password">Password</label>
-        <StyledInput {...register('password')} type="password" id="password" />
+        <StyledLabel htmlFor="password">Password</StyledLabel>
+        <StyledInput
+          {...register('password')}
+          type="password"
+          placeholder="Password"
+          id="password"
+        />
         <ErrorMessage>{errors.password?.message}</ErrorMessage>
-        <FormButton type="submit">Login</FormButton>
+
+        <ForgotButton to="/resetpassword">Forgot password?</ForgotButton>
+        <FormButton type="submit">Sign In</FormButton>
       </StyledForm>
       <Toaster />
-    </>
+    </Container>
   );
 }
