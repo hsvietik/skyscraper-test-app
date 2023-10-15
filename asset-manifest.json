@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/skyscraper-test-app/static/css/main.ae071ed2.css",
-    "main.js": "/skyscraper-test-app/static/js/main.dbd720b2.js",
+    "main.js": "/skyscraper-test-app/static/js/main.a03630e7.js",
     "static/js/56.bd446100.chunk.js": "/skyscraper-test-app/static/js/56.bd446100.chunk.js",
-    "static/js/853.eb429aaa.chunk.js": "/skyscraper-test-app/static/js/853.eb429aaa.chunk.js",
-    "static/js/720.8f447e6f.chunk.js": "/skyscraper-test-app/static/js/720.8f447e6f.chunk.js",
-    "static/js/443.859e6444.chunk.js": "/skyscraper-test-app/static/js/443.859e6444.chunk.js",
+    "static/js/489.85e8dd9f.chunk.js": "/skyscraper-test-app/static/js/489.85e8dd9f.chunk.js",
+    "static/js/324.405a5021.chunk.js": "/skyscraper-test-app/static/js/324.405a5021.chunk.js",
+    "static/js/443.9437134f.chunk.js": "/skyscraper-test-app/static/js/443.9437134f.chunk.js",
     "static/js/114.d302044c.chunk.js": "/skyscraper-test-app/static/js/114.d302044c.chunk.js",
     "static/js/707.79a214ef.chunk.js": "/skyscraper-test-app/static/js/707.79a214ef.chunk.js",
     "static/js/135.7cc99f77.chunk.js": "/skyscraper-test-app/static/js/135.7cc99f77.chunk.js",
@@ -13,17 +13,17 @@
     "static/media/skyscraper-login.jpg": "/skyscraper-test-app/static/media/skyscraper-login.fb4317473d9b99290311.jpg",
     "index.html": "/skyscraper-test-app/index.html",
     "main.ae071ed2.css.map": "/skyscraper-test-app/static/css/main.ae071ed2.css.map",
-    "main.dbd720b2.js.map": "/skyscraper-test-app/static/js/main.dbd720b2.js.map",
+    "main.a03630e7.js.map": "/skyscraper-test-app/static/js/main.a03630e7.js.map",
     "56.bd446100.chunk.js.map": "/skyscraper-test-app/static/js/56.bd446100.chunk.js.map",
-    "853.eb429aaa.chunk.js.map": "/skyscraper-test-app/static/js/853.eb429aaa.chunk.js.map",
-    "720.8f447e6f.chunk.js.map": "/skyscraper-test-app/static/js/720.8f447e6f.chunk.js.map",
-    "443.859e6444.chunk.js.map": "/skyscraper-test-app/static/js/443.859e6444.chunk.js.map",
+    "489.85e8dd9f.chunk.js.map": "/skyscraper-test-app/static/js/489.85e8dd9f.chunk.js.map",
+    "324.405a5021.chunk.js.map": "/skyscraper-test-app/static/js/324.405a5021.chunk.js.map",
+    "443.9437134f.chunk.js.map": "/skyscraper-test-app/static/js/443.9437134f.chunk.js.map",
     "114.d302044c.chunk.js.map": "/skyscraper-test-app/static/js/114.d302044c.chunk.js.map",
     "707.79a214ef.chunk.js.map": "/skyscraper-test-app/static/js/707.79a214ef.chunk.js.map",
     "135.7cc99f77.chunk.js.map": "/skyscraper-test-app/static/js/135.7cc99f77.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae071ed2.css",
-    "static/js/main.dbd720b2.js"
+    "static/js/main.a03630e7.js"
   ]
 }
