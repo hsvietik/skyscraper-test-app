@@ -23,7 +23,6 @@ import { loginSchema } from '../../helpers/validationSchema';
 
 export function LoginForm() {
   const dispatch = useDispatch();
-  // const navigate = useNavigate();
 
   const {
     register,
@@ -47,7 +46,6 @@ export function LoginForm() {
           : toast.error('Something went wrong, try one nore time!');
       });
     reset();
-    // navigate('/contacts', { replace: true });
   };
 
   return (
