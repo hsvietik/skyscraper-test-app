@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/skyscraper-test-app/static/css/main.dca6cb5f.css",
-    "main.js": "/skyscraper-test-app/static/js/main.68e86505.js",
-    "static/js/9.0d2a2a22.chunk.js": "/skyscraper-test-app/static/js/9.0d2a2a22.chunk.js",
-    "static/js/853.221b0878.chunk.js": "/skyscraper-test-app/static/js/853.221b0878.chunk.js",
-    "static/js/212.51f34822.chunk.js": "/skyscraper-test-app/static/js/212.51f34822.chunk.js",
-    "static/js/443.2990da0f.chunk.js": "/skyscraper-test-app/static/js/443.2990da0f.chunk.js",
-    "static/js/114.285e8e2e.chunk.js": "/skyscraper-test-app/static/js/114.285e8e2e.chunk.js",
+    "main.css": "/skyscraper-test-app/static/css/main.26295486.css",
+    "main.js": "/skyscraper-test-app/static/js/main.104b0148.js",
+    "static/js/56.268f4e94.chunk.js": "/skyscraper-test-app/static/js/56.268f4e94.chunk.js",
+    "static/js/853.05ebe927.chunk.js": "/skyscraper-test-app/static/js/853.05ebe927.chunk.js",
+    "static/js/212.4774cbab.chunk.js": "/skyscraper-test-app/static/js/212.4774cbab.chunk.js",
+    "static/js/443.8dc7fde6.chunk.js": "/skyscraper-test-app/static/js/443.8dc7fde6.chunk.js",
+    "static/js/114.d302044c.chunk.js": "/skyscraper-test-app/static/js/114.d302044c.chunk.js",
     "static/js/707.79a214ef.chunk.js": "/skyscraper-test-app/static/js/707.79a214ef.chunk.js",
     "static/js/135.7cc99f77.chunk.js": "/skyscraper-test-app/static/js/135.7cc99f77.chunk.js",
-    "static/media/phone-book-logo.png": "/skyscraper-test-app/static/media/phone-book-logo.413d76b3e48f1301aaa3.png",
+    "static/media/skyscraper-main.jpg": "/skyscraper-test-app/static/media/skyscraper-main.f0d6b5e814c762729ac5.jpg",
     "index.html": "/skyscraper-test-app/index.html",
-    "main.dca6cb5f.css.map": "/skyscraper-test-app/static/css/main.dca6cb5f.css.map",
-    "main.68e86505.js.map": "/skyscraper-test-app/static/js/main.68e86505.js.map",
-    "9.0d2a2a22.chunk.js.map": "/skyscraper-test-app/static/js/9.0d2a2a22.chunk.js.map",
-    "853.221b0878.chunk.js.map": "/skyscraper-test-app/static/js/853.221b0878.chunk.js.map",
-    "212.51f34822.chunk.js.map": "/skyscraper-test-app/static/js/212.51f34822.chunk.js.map",
-    "443.2990da0f.chunk.js.map": "/skyscraper-test-app/static/js/443.2990da0f.chunk.js.map",
-    "114.285e8e2e.chunk.js.map": "/skyscraper-test-app/static/js/114.285e8e2e.chunk.js.map",
+    "main.26295486.css.map": "/skyscraper-test-app/static/css/main.26295486.css.map",
+    "main.104b0148.js.map": "/skyscraper-test-app/static/js/main.104b0148.js.map",
+    "56.268f4e94.chunk.js.map": "/skyscraper-test-app/static/js/56.268f4e94.chunk.js.map",
+    "853.05ebe927.chunk.js.map": "/skyscraper-test-app/static/js/853.05ebe927.chunk.js.map",
+    "212.4774cbab.chunk.js.map": "/skyscraper-test-app/static/js/212.4774cbab.chunk.js.map",
+    "443.8dc7fde6.chunk.js.map": "/skyscraper-test-app/static/js/443.8dc7fde6.chunk.js.map",
+    "114.d302044c.chunk.js.map": "/skyscraper-test-app/static/js/114.d302044c.chunk.js.map",
     "707.79a214ef.chunk.js.map": "/skyscraper-test-app/static/js/707.79a214ef.chunk.js.map",
     "135.7cc99f77.chunk.js.map": "/skyscraper-test-app/static/js/135.7cc99f77.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dca6cb5f.css",
-    "static/js/main.68e86505.js"
+    "static/css/main.26295486.css",
+    "static/js/main.104b0148.js"
   ]
 }
