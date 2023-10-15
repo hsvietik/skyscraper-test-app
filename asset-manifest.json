@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/skyscraper-test-app/static/css/main.dca6cb5f.css",
+    "main.js": "/skyscraper-test-app/static/js/main.68e86505.js",
+    "static/js/9.0d2a2a22.chunk.js": "/skyscraper-test-app/static/js/9.0d2a2a22.chunk.js",
+    "static/js/853.221b0878.chunk.js": "/skyscraper-test-app/static/js/853.221b0878.chunk.js",
+    "static/js/212.51f34822.chunk.js": "/skyscraper-test-app/static/js/212.51f34822.chunk.js",
+    "static/js/443.2990da0f.chunk.js": "/skyscraper-test-app/static/js/443.2990da0f.chunk.js",
+    "static/js/114.285e8e2e.chunk.js": "/skyscraper-test-app/static/js/114.285e8e2e.chunk.js",
+    "static/js/707.79a214ef.chunk.js": "/skyscraper-test-app/static/js/707.79a214ef.chunk.js",
+    "static/js/135.7cc99f77.chunk.js": "/skyscraper-test-app/static/js/135.7cc99f77.chunk.js",
+    "static/media/phone-book-logo.png": "/skyscraper-test-app/static/media/phone-book-logo.413d76b3e48f1301aaa3.png",
+    "index.html": "/skyscraper-test-app/index.html",
+    "main.dca6cb5f.css.map": "/skyscraper-test-app/static/css/main.dca6cb5f.css.map",
+    "main.68e86505.js.map": "/skyscraper-test-app/static/js/main.68e86505.js.map",
+    "9.0d2a2a22.chunk.js.map": "/skyscraper-test-app/static/js/9.0d2a2a22.chunk.js.map",
+    "853.221b0878.chunk.js.map": "/skyscraper-test-app/static/js/853.221b0878.chunk.js.map",
+    "212.51f34822.chunk.js.map": "/skyscraper-test-app/static/js/212.51f34822.chunk.js.map",
+    "443.2990da0f.chunk.js.map": "/skyscraper-test-app/static/js/443.2990da0f.chunk.js.map",
+    "114.285e8e2e.chunk.js.map": "/skyscraper-test-app/static/js/114.285e8e2e.chunk.js.map",
+    "707.79a214ef.chunk.js.map": "/skyscraper-test-app/static/js/707.79a214ef.chunk.js.map",
+    "135.7cc99f77.chunk.js.map": "/skyscraper-test-app/static/js/135.7cc99f77.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dca6cb5f.css",
+    "static/js/main.68e86505.js"
+  ]
+}
