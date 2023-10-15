@@ -5,17 +5,23 @@ import { useDispatch } from 'react-redux';
 import { yupResolver } from '@hookform/resolvers/yup';
 import toast, { Toaster } from 'react-hot-toast';
 import {
+  Container,
+  Title,
   StyledForm,
+  StyledLabel,
   StyledInput,
   FormButton,
   ErrorMessage,
+  SignWrap,
+  SignText,
+  SignLink,
 } from './Forms.styled';
 
 import { createUser } from '../../redux/auth/authOperations';
 
 import { registrationSchema } from '../../helpers/validationSchema';
 
-export function RegisterForm() {
+export function SignupForm() {
   const dispatch = useDispatch();
   // const navigate = useNavigate();
 
@@ -43,20 +49,25 @@ export function RegisterForm() {
   };
 
   return (
-    <>
+    <Container>
+      <Title>Sign Up</Title>
       <StyledForm onSubmit={handleSubmit(onSubmit)}>
-        <label htmlFor="name">Name</label>
+        <StyledLabel htmlFor="name">Name</StyledLabel>
         <StyledInput {...register('name')} type="text" id="name" />
         <ErrorMessage>{errors.name?.message}</ErrorMessage>
-        <label htmlFor="email">Email</label>
+        <StyledLabel htmlFor="email">Email</StyledLabel>
         <StyledInput {...register('email')} type="email" id="email" />
         <ErrorMessage>{errors.email?.message}</ErrorMessage>
-        <label htmlFor="password">Password</label>
+        <StyledLabel htmlFor="password">Password</StyledLabel>
         <StyledInput {...register('password')} type="password" id="password" />
         <ErrorMessage>{errors.password?.message}</ErrorMessage>
-        <FormButton type="submit">Register</FormButton>
+        <FormButton type="submit">Sign Up</FormButton>
       </StyledForm>
+      <SignWrap>
+        <SignText>Already have account?</SignText>
+        <SignLink to="/login">Log In</SignLink>
+      </SignWrap>
       <Toaster />
-    </>
+    </Container>
   );
 }

@@ -13,6 +13,9 @@ import {
   FormButton,
   ErrorMessage,
   ForgotButton,
+  SignWrap,
+  SignText,
+  SignLink,
 } from './Forms.styled';
 import { logIn } from '../../redux/auth/authOperations';
 import { loginSchema } from '../../helpers/validationSchema';
@@ -70,6 +73,10 @@ export function LoginForm() {
         <ForgotButton to="/resetpassword">Forgot password?</ForgotButton>
         <FormButton type="submit">Sign In</FormButton>
       </StyledForm>
+      <SignWrap>
+        <SignText>Don't have account?</SignText>
+        <SignLink to="/signup">Sign Up</SignLink>
+      </SignWrap>
       <Toaster />
     </Container>
   );

@@ -20,6 +20,7 @@ export const Title = styled.h2`
 export const StyledForm = styled.form`
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 `;
 
 export const StyledInput = styled.input`
@@ -42,10 +43,7 @@ export const StyledLabel = styled.label`
   font-weight: 700;
   line-height: 1.42;
 `;
-export const ErrorMessage = styled.p`
-  margin: 0px;
-  padding: 0px;
-`;
+export const ErrorMessage = styled.p``;
 
 export const ForgotButton = styled(Link)`
   margin-bottom: 30px;
@@ -75,4 +73,17 @@ export const FormButton = styled.button`
     background-color: ${Colors.black};
     color: ${Colors.brown};
   }
+`;
+
+export const SignWrap = styled.div`
+  display: flex;
+  gap: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.57;
+  justify-content: center;
+`;
+export const SignText = styled.p``;
+export const SignLink = styled(Link)`
+  color: ${Colors.brown};
 `;
