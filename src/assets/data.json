@@ -1,0 +1,42 @@
+[
+  {
+    "id": "id-1",
+    "name": "The Marina Torch",
+    "picture": "https://res.cloudinary.com/dmhka1bvj/image/upload/v1697392323/Skyscraper/1marina_jrkfi5.jpg",
+    "price": 6500000,
+    "ticket": 60000,
+    "yield": 9.25,
+    "deadline": "2024-03-14",
+    "sold": 75
+  },
+  {
+    "id": "id-2",
+    "name": "HHHR Tower",
+    "picture": "https://res.cloudinary.com/dmhka1bvj/image/upload/v1697392335/Skyscraper/2tower_wqy54d.jpg",
+    "price": 6500000,
+    "ticket": 60000,
+    "yield": 9.25,
+    "deadline": "2024-05-14",
+    "sold": 75
+  },
+  {
+    "id": "id-3",
+    "name": "The Marina Torch",
+    "picture": "https://res.cloudinary.com/dmhka1bvj/image/upload/v1697392341/Skyscraper/3ocean_yfmurg.jpg",
+    "price": 6500000,
+    "ticket": 60000,
+    "yield": 9.25,
+    "deadline": "2024-02-14",
+    "sold": 75
+  },
+  {
+    "id": "id-4",
+    "name": "The Marina Torch",
+    "picture": "https://res.cloudinary.com/dmhka1bvj/image/upload/v1697392349/Skyscraper/4yaquob_znkdub.jpg",
+    "price": 6500000,
+    "ticket": 60000,
+    "yield": 9.25,
+    "deadline": "2023-12-17",
+    "sold": 75
+  }
+]

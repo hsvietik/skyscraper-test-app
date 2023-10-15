@@ -9,7 +9,7 @@ import SharedLayout from './SharedLayout/SharedLayout';
 const Home = lazy(() => import('../pages/Home'));
 const Signup = lazy(() => import('../pages/Signup'));
 const Login = lazy(() => import('../pages/Login'));
-const Contacts = lazy(() => import('../pages/Contacts'));
+const Skyscrapers = lazy(() => import('../pages/Skyscrapers'));
 const NotFound = lazy(() => import('../pages/NotFound'));
 
 export function App() {
@@ -24,19 +24,19 @@ export function App() {
         <Route
           path="signup"
           element={
-            <RestrictedRoute redirectTo="/contacts" component={<Signup />} />
+            <RestrictedRoute redirectTo="/skyscrapers" component={<Signup />} />
           }
         />
         <Route
           path="login"
           element={
-            <RestrictedRoute redirectTo="/contacts" component={<Login />} />
+            <RestrictedRoute redirectTo="/skyscrapers" component={<Login />} />
           }
         />
         <Route
-          path="contacts"
+          path="skyscrapers"
           element={
-            <PrivateRoute redirectTo="/login" component={<Contacts />} />
+            <PrivateRoute redirectTo="/login" component={<Skyscrapers />} />
           }
         />
         <Route path="*" element={<NotFound />} />

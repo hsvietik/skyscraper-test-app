@@ -1,41 +1,34 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 import { Colors } from '../../helpers/colors';
+import { Transition } from 'helpers/transition';
 
 export const Menu = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
-  gap: 10px;
-`;
-export const Wrap = styled.div`
-  display: flex;
-  gap: 10px;
-`;
-export const ContactsLink = styled(Link)`
-  min-width: 80px;
-  padding: 8px;
-  border-radius: 6px;
+  gap: 20px;
+  font-family: 'Merriweather', serif;
   font-size: 16px;
-  background-color: ${Colors.blue};
-  &:focus,
-  &:hover {
-    background-color: ${Colors.blueHover};
-  }
+  font-weight: 700;
+  line-height: 1.37;
+  color: ${Colors.brown};
 `;
+
 export const LogOutButton = styled.button`
-  min-width: 80px;
-  color: inherit;
-  font-weight: inherit;
-  letter-spacing: inherit;
-  padding: 8px;
-  border: none;
-  border-radius: 6px;
-  background-color: ${Colors.yellow};
-  cursor: pointer;
-  &:focus,
-  &:hover {
-    background-color: ${Colors.yellowHover};
+  display: block;
+  min-width: 160px;
+  padding: 11px;
+  border-radius: 5px;
+  border: 1px solid ${Colors.brown};
+  color: ${Colors.brown};
+  background-color: transparent;
+  transition-property: color, background-color;
+  transition-duration: ${Transition.duration};
+  transition-timing-function: ${Transition.transitionTiming};
+  &:hover,
+  &:focus {
+    color: ${Colors.white};
+    background-color: ${Colors.brown};
   }
 `;

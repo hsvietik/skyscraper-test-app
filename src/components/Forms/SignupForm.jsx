@@ -53,13 +53,28 @@ export function SignupForm() {
       <Title>Sign Up</Title>
       <StyledForm onSubmit={handleSubmit(onSubmit)}>
         <StyledLabel htmlFor="name">Name</StyledLabel>
-        <StyledInput {...register('name')} type="text" id="name" />
+        <StyledInput
+          {...register('name')}
+          type="text"
+          placeholder="Name"
+          id="name"
+        />
         <ErrorMessage>{errors.name?.message}</ErrorMessage>
         <StyledLabel htmlFor="email">Email</StyledLabel>
-        <StyledInput {...register('email')} type="email" id="email" />
+        <StyledInput
+          {...register('email')}
+          type="email"
+          placeholder="Email"
+          id="email"
+        />
         <ErrorMessage>{errors.email?.message}</ErrorMessage>
         <StyledLabel htmlFor="password">Password</StyledLabel>
-        <StyledInput {...register('password')} type="password" id="password" />
+        <StyledInput
+          {...register('password')}
+          type="password"
+          placeholder="Password"
+          id="password"
+        />
         <ErrorMessage>{errors.password?.message}</ErrorMessage>
         <FormButton type="submit">Sign Up</FormButton>
       </StyledForm>
