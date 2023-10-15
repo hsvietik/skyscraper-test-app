@@ -22,7 +22,7 @@ export function App() {
       <Route path="/" element={<SharedLayout />}>
         <Route index element={<Home />} />
         <Route
-          path="register"
+          path="signup"
           element={
             <RestrictedRoute redirectTo="/contacts" component={<Register />} />
           }

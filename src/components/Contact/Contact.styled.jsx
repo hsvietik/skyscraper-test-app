@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import { FaTrash } from 'react-icons/fa';
 import { Colors } from '../../helpers/colors';
 

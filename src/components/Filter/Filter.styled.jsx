@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 
 export const SearchForm = styled.div`
   margin-bottom: 20px;

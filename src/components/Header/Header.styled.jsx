@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import { Colors } from '../../helpers/colors';
 
 export const StyledHeader = styled.header`
@@ -9,21 +9,13 @@ export const StyledHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  background-color: ${Colors.headerBackground};
+  padding: 18px 80px;
+  background-color: ${Colors.black};
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 `;
 
-export const LogoWrap = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 10px;
-`;
-export const Logo = styled.img`
-  width: 50px;
-`;
 export const LogoText = styled.p`
-  font-size: 24px;
-  font-weight: 900;
+  font-size: 28px;
+  font-weight: 400;
 `;

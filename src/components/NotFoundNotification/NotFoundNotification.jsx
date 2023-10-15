@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 const Section = styled.section`
   padding: 20px;
   display: flex;

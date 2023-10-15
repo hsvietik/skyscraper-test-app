@@ -1,19 +1,17 @@
 import React from 'react';
-import { Hero, Picture, Text } from './HeroSection.styled';
-import background from '../Header/phone-book-logo.png';
+import { Section, Title, Text, Button } from './HeroSection.styled';
 
 function HeroSection() {
   return (
-    <Hero>
-      <Picture src={background} alt="phonebook" />
-      <div>
-        <Text>
-          Phonebook app ensures you will always have the latest and complete
-          contact information and will never lose a contact anymore
-        </Text>
-        <Text>To use the Phonebook app Register or Log In</Text>
-      </div>
-    </Hero>
+    <Section>
+      <Title>The chemical negatively charged</Title>
+      <Text>
+        Numerous calculations predict, and experiments confirm, that the force
+        field reflects the beam, while the mass defect is not formed. The
+        chemical compound is negatively charged. Twhile the mass defect is
+      </Text>
+      <Button>Get Started</Button>
+    </Section>
   );
 }
 

@@ -1,13 +1,16 @@
 import React from 'react';
-
-import { Navigation, NavigationLink } from './AuthNav.styled';
+import { AuthNavigation, LogIn, SignUp } from './AuthNav.styled';
 
 function AuthNav() {
   return (
-    <Navigation>
-      <NavigationLink to="/register">Register</NavigationLink>
-      <NavigationLink to="/login">Log In</NavigationLink>
-    </Navigation>
+    <AuthNavigation>
+      <li>
+        <LogIn to="/login">Log In</LogIn>
+      </li>
+      <li>
+        <SignUp to="/signup">Sign Up</SignUp>
+      </li>
+    </AuthNavigation>
   );
 }
 export default AuthNav;

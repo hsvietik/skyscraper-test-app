@@ -1,27 +1,23 @@
-@import-normalize; /* bring in normalize.css styles */
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@700&display=swap');
 
 body {
-  font-family: 'Caveat Brush', cursive;
+  font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2a3236;
-  font-size: 18px;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  background-color: #e1d5bb;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  background-color: #f2f2f2;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
+h1,
 p {
   margin: 0;
   padding: 0;
