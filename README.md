@@ -1,4 +1,4 @@
-#Skyscrapers App test task
+# Skyscrapers App test task
 
 ## Frontend Technologies
 
