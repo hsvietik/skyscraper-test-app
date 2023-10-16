@@ -1,27 +1,29 @@
 {
   "files": {
     "main.css": "/skyscraper-test-app/static/css/main.1310597b.css",
-    "main.js": "/skyscraper-test-app/static/js/main.998cffbf.js",
+    "main.js": "/skyscraper-test-app/static/js/main.e8e876d9.js",
     "static/js/56.bd446100.chunk.js": "/skyscraper-test-app/static/js/56.bd446100.chunk.js",
     "static/js/489.39265fc7.chunk.js": "/skyscraper-test-app/static/js/489.39265fc7.chunk.js",
     "static/js/324.4210d097.chunk.js": "/skyscraper-test-app/static/js/324.4210d097.chunk.js",
-    "static/js/78.4a821311.chunk.js": "/skyscraper-test-app/static/js/78.4a821311.chunk.js",
-    "static/js/114.d302044c.chunk.js": "/skyscraper-test-app/static/js/114.d302044c.chunk.js",
-    "static/js/707.79a214ef.chunk.js": "/skyscraper-test-app/static/js/707.79a214ef.chunk.js",
+    "static/js/504.4f274464.chunk.js": "/skyscraper-test-app/static/js/504.4f274464.chunk.js",
+    "static/js/114.88136978.chunk.js": "/skyscraper-test-app/static/js/114.88136978.chunk.js",
+    "static/js/218.001c5b67.chunk.js": "/skyscraper-test-app/static/js/218.001c5b67.chunk.js",
+    "static/js/586.d926e44d.chunk.js": "/skyscraper-test-app/static/js/586.d926e44d.chunk.js",
     "static/media/skyscraper-main.jpg": "/skyscraper-test-app/static/media/skyscraper-main.f0d6b5e814c762729ac5.jpg",
     "static/media/skyscraper-login.jpg": "/skyscraper-test-app/static/media/skyscraper-login.fb4317473d9b99290311.jpg",
     "index.html": "/skyscraper-test-app/index.html",
     "main.1310597b.css.map": "/skyscraper-test-app/static/css/main.1310597b.css.map",
-    "main.998cffbf.js.map": "/skyscraper-test-app/static/js/main.998cffbf.js.map",
+    "main.e8e876d9.js.map": "/skyscraper-test-app/static/js/main.e8e876d9.js.map",
     "56.bd446100.chunk.js.map": "/skyscraper-test-app/static/js/56.bd446100.chunk.js.map",
     "489.39265fc7.chunk.js.map": "/skyscraper-test-app/static/js/489.39265fc7.chunk.js.map",
     "324.4210d097.chunk.js.map": "/skyscraper-test-app/static/js/324.4210d097.chunk.js.map",
-    "78.4a821311.chunk.js.map": "/skyscraper-test-app/static/js/78.4a821311.chunk.js.map",
-    "114.d302044c.chunk.js.map": "/skyscraper-test-app/static/js/114.d302044c.chunk.js.map",
-    "707.79a214ef.chunk.js.map": "/skyscraper-test-app/static/js/707.79a214ef.chunk.js.map"
+    "504.4f274464.chunk.js.map": "/skyscraper-test-app/static/js/504.4f274464.chunk.js.map",
+    "114.88136978.chunk.js.map": "/skyscraper-test-app/static/js/114.88136978.chunk.js.map",
+    "218.001c5b67.chunk.js.map": "/skyscraper-test-app/static/js/218.001c5b67.chunk.js.map",
+    "586.d926e44d.chunk.js.map": "/skyscraper-test-app/static/js/586.d926e44d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1310597b.css",
-    "static/js/main.998cffbf.js"
+    "static/js/main.e8e876d9.js"
   ]
 }
