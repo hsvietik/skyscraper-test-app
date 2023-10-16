@@ -1,9 +1,11 @@
 import styled from 'styled-components';
+import { Colors } from 'helpers/colors';
 const Section = styled.section`
   padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  color: ${Colors.black};
 `;
 export function NotFoundNotification() {
   return (

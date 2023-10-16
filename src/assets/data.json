@@ -21,7 +21,7 @@
   },
   {
     "id": "id-3",
-    "name": "The Marina Torch",
+    "name": "Ocean peaks",
     "picture": "https://res.cloudinary.com/dmhka1bvj/image/upload/v1697392341/Skyscraper/3ocean_yfmurg.jpg",
     "price": 6500000,
     "ticket": 60000,
@@ -31,7 +31,7 @@
   },
   {
     "id": "id-4",
-    "name": "The Marina Torch",
+    "name": "Al Yaqoub Tower",
     "picture": "https://res.cloudinary.com/dmhka1bvj/image/upload/v1697392349/Skyscraper/4yaquob_znkdub.jpg",
     "price": 6500000,
     "ticket": 60000,
